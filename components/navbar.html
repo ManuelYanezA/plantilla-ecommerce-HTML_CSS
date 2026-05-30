@@ -1,13 +1,17 @@
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">
+    <a class="navbar-brand" href="index.html"><!-- Se puede cambiar el texto por una imagen <img> -->
         Mi Tienda
     </a>
+    <!-- Botón para colapsar el menú en pantallas pequeñas -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <!-- Menú de navegación -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <!-- Enlaces del menú -->
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
@@ -20,9 +24,11 @@
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contacto</a>
         </li>
+        <!-- Icono del carrito de compras -->
         <li class="nav-item">
             <a class="nav-link position-relative" href="#" data-bs-toggle="offcanvas" data-bs-target="#carritoOffcanvas">
                 <i class="bi bi-bag fs-4"></i>
+                <!-- Contador del carrito -->
                 <span id="contador-carrito" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                     0
                 </span>
